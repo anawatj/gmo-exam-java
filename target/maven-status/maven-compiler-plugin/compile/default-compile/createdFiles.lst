@@ -1,0 +1,6 @@
+com\gmo\exam\dto\UserGroupDto.class
+com\gmo\exam\ExamApplication.class
+com\gmo\exam\services\UserService.class
+com\gmo\exam\controllers\UserController.class
+com\gmo\exam\entities\UserGroup.class
+com\gmo\exam\repositories\IUserGroupRepository.class
