@@ -291,9 +291,8 @@ public class QuestionService {
 			if(map.get("status")!=null && map.get("status").equals(HttpStatus.BAD_REQUEST)) {
 				return map;
 			}
-			SummaryDto summaryDto = summaryDao.summaryByUserName(results.get(0).getUserName());
 			map.put("status", HttpStatus.OK);
-			map.put("data", summaryDto);
+			map.put("data", results);
 			return map;
 		}catch(Exception ex) {
 			throw ex;
